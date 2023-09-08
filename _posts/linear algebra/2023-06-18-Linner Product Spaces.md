@@ -25,8 +25,8 @@ tags:
 
 # Vector Length and Unit Vector
 
-<aside>
-💡 **Def Length of vector in $R^n$**
+
+**Def Length of vector in $R^n$**
 
 if $v=(v_1,v_2,\dots,v_n)$ and
 
@@ -34,33 +34,29 @@ $\left|\left|v\right|\right|$$=\sqrt{v_1^2+v_2^2\dots+v_n^2}$
 
 if $\left|\left|v\right|\right|=1$ , then v is unit vector
 
-<aside>
-💡 **Def Length of a Scalar Multiple**
+
+**Def Length of a Scalar Multiple**
 
 $\left|\left|cv\right|\right|=c\left|\left|v\right|\right|$
 
-</aside>
 
-</aside>
-
-<aside>
-💡 **Def Unit Vector**
+**Def Unit Vector**
 
 $u=\frac{v}{\left|\left|v\right|\right|}$ has length 1
 
-</aside>
+
 
 # Dot Product of $R^n$
 
-<aside>
-💡 **Def Dot Product**
+
+**Def Dot Product**
 
 $$
 u\cdot v =u_1v_1+u_2v_2\dots+u_nv_n
 $$
 
-<aside>
-📢 **Properties of Dot Product**
+
+**Properties of Dot Product**
 
 1. $u\cdot v=v\cdot u$
 2. $u \cdot(v+w)=u\cdot v+u\cdot w$
@@ -68,14 +64,10 @@ $$
 4. $v \cdot v =\left|\left| v^2\right|\right| \geq 0$ 
 
 5. if  $v \cdot v=0$ if and only if v=0
-</aside>
-
-</aside>
 
 # Between two vector…
 
-<aside>
-💡 **Def Distance Between Two Vector**
+**Def Distance Between Two Vector**
 
 [https://www.geogebra.org/calculator/nxfx2qxt?embed](https://www.geogebra.org/calculator/nxfx2qxt?embed)
 
@@ -83,10 +75,7 @@ $$
 d(u,v)=\left|\left|v-u\right|\right|
 $$
 
-</aside>
-
-<aside>
-💡 **Def Angle Between Two Vector**
+**Def Angle Between Two Vector**
 
 $$
 cos\theta= \frac{u\cdot v}{\left|\left|u\right|\right|\left|\left|v\right|\right|}
@@ -94,12 +83,12 @@ $$
 
 if  $u\cdot v=0$ ortjgonal
 
-</aside>
+
 
 # Inquality
 
-<aside>
-💡 **Thm The Cauchy-Schwarz Thm**
+
+**Thm The Cauchy-Schwarz Thm**
 
 $$
 \left|u\cdot v\right| \leq\left|\left|u\right|\right| \left|\left|v\right|\right|
@@ -107,10 +96,8 @@ $$
 
 when equal is true, $cos\theta =1$ 
 
-</aside>
 
-<aside>
-💡 **Thm The Triangle Inquality**
+**Thm The Triangle Inquality**
 
 $$
 \left|\left|u+ v\right| \right| \leq\left|\left|u\right|\right| +\left|\left|v\right|\right|
@@ -118,12 +105,12 @@ $$
 
 when equal is true, $u\cdot v\geq0$
 
-</aside>
+
 
 # Lnner Product
 
-<aside>
-💡 **Def Lnner Product**
+
+**Def Lnner Product**
 
 Lnner Product is a fuction and it is satisfied with below condition
 
@@ -131,37 +118,32 @@ Lnner Product is a fuction and it is satisfied with below condition
 2. $\left<u,v+w \right>=\left<u,v \right>+\left<u,w \right>$
 3. $c\left<u,v \right>=\left<cu,v\right>$
 4. $\left<v,v \right> = 0$   if and only if $v=0$
-</aside>
 
-<aside>
-💡 **Def length, Distance, Angle**
+
+
+**Def length, Distance, Angle**
 
 1. Length: $\sqrt{\left<v,v \right>}$
 2. Distance: $\left|\left|u-v \right|\right|$
 3. Angle: $cos\theta=\frac{\left<u,v \right>}{\left|\left|v\right|\right|\left|\left|u\right|\right| }$
 4. Orthogonal: $\left<u,v \right> =0$
-</aside>
 
-<aside>
-💡 **Thm Inquality**
+**Thm Inquality**
 
 1. Cauchy-Schwarz: $\left|\left<u,v\right>\right| \leq\left|\left|u\right|\right| \left|\left|v\right|\right|$
 2. Triangle: $\left|\left|u+ v\right| \right| \leq\left|\left|u\right|\right| +\left|\left|v\right|\right|$
-</aside>
 
-<aside>
-💡 **Def** **Projection**
+**Def** **Projection**
 
 $Proj_vu=\frac{\left<u,v\right>}{\left<v,v\right>}v$
 
 **ps** $d(u,proj_vu)=d(u,cv)$ $c \ne \frac{\left<u,v \right>}{\left<v,v \right>}$
 
-</aside>
 
 # Orthonormal Bases
 
-<aside>
-💡 **Def Orthonormal Bases**
+
+**Def Orthonormal Bases**
 
 For $S=\{v_1,v_2 \dots v_n\}$ is an inner product space
 
@@ -175,22 +157,20 @@ $\left< v_i,v_j\right>=0\space\space\space\space\space\space i\ne j$
 
 $\left|\left| v_i\right|\right| = 1\space\space\space\space\space\space\space\space\space\space i=1,2 \dots n$
 
-<aside>
-📢 **Thm Orthonormal Bases Set are Linearly Independent**
+
+**Thm Orthonormal Bases Set are Linearly Independent**
 
 $S=\{v_1,v_2 \dots v_n\}$ is Orthonormal Bases then vector in S are Linearly Independent
 
-</aside>
 
-<aside>
-📢 **Thm Corollary**
+
+
+**Thm Corollary**
 
 If V is an inner product space, and $dim(V)=n$, then any orthogonal set of n nonzero vector is basis for V
 
-</aside>
 
-<aside>
-📢 **Thm Coordinates Relative to an Orthonormal Basis**
+**Thm Coordinates Relative to an Orthonormal Basis**
 
 If $B=\{ v_1,v_2\dots ,v_n\}$ is an **Orthonormal Basis,** then the cordinate representation of vector w relative to B is
 
@@ -204,17 +184,14 @@ $$
 \left[x\right]_B=\left[\left<w,v_1\right>,\left<w,v_2\right> \dots \left<w,v_n\right>\right]^T
 $$
 
-</aside>
 
-</aside>
 
 # Gram-Schmidt Orthonormal Process
 
 > 炫哥說必考，謝謝濃眉毛
 > 
 
-<aside>
-📢 **Thm Gram-Schmidt Orthonormal Process**
+**Thm Gram-Schmidt Orthonormal Process**
 
 1. Let $B=\{v_1,v_2 \dots v_n\}$ be a basis for an inner product space V
 2. Let $B^{'}=\{w_1,w_2 \dots w_n\}$ where
@@ -224,7 +201,7 @@ $$
     $$
     
     <aside>
-    ⚠️ **背法**
+    **背法**
     
     1. $w_1=v_1$
     2. $w_2=v_2-proj_{w_1}v_2$
@@ -236,48 +213,41 @@ $$
     </aside>
     
 3. let w become unit vector
-</aside>
+
 
 # Least Square Analysis
 
-<aside>
-💡 **Least Square Analysis**
+
+**Least Square Analysis**
 
 Find the minimied of the distance (L to all point)
 
-</aside>
 
-<aside>
-💡 **Def Orthogonal Subspaces**
+**Def Orthogonal Subspaces**
 
 $S_1 ,S_2$ are orthogonal when $v_1 \sdot v_2=0$ where $v_1 \in S_1 \space\space\space\space v_2 \in S_2$ 
 
-<aside>
-💡 **Def Orthogonal Complement**
+
+**Def Orthogonal Complement**
 
 The Orthogonal Complement of S: $S^{\perp}=\{u\in R^n:v\sdot u=0  \space\space\forall v\in S \}$
 
-</aside>
 
-<aside>
-💡 **Def Direct Sum**
+**Def Direct Sum**
 
 Let $S_1 ,S_2$  is subsapce of $R^n$. If each vector $x\in R^n$ can br uniquely,                  $x= s_1+s_2 \space \space \space \space s_1\in S_1 \space\space \space \space  s_2\in S_2$ , then $R^n$  is the direct sum of $S_1$  and $S_2$ 
 
 **Notion:** $R^n =S_1 \oplus S_2$
 
-</aside>
 
-<aside>
-📢 **Thm Properties of Orthogonal Subspaces**
+
+**Thm Properties of Orthogonal Subspaces**
 
 1. $dim(S)+dim(S^{\perp})=n$
 2. $R^n = S \oplus S^{\perp}$
 3. $(S^{\perp})^{\perp}=S$
-</aside>
 
-<aside>
-📢 **Thm Projection of Subspace**
+**Thm Projection of Subspace**
 
 Subspace $S=\{ u_1,u_2\dots ,u_n\}$  is orthgonal basis to subspace of $R^n$ then given a vector $v\in R^n$
 
@@ -285,27 +255,19 @@ $$
 proj_Sv=\sum_{i=1}^n (v\sdot u_i)u_i
 $$
 
-<aside>
-👉 **Distance**
+**Distance**
 
 $\left|\left| v-proj_Sv\right|\right| < \left|\left| v-u\right|\right|$
 
 
 
-</aside>
-
-</aside>
-
-</aside>
-
-<aside>
-💡 **Fundamental Subspaces of a Matrix**
+**Fundamental Subspaces of a Matrix**
 
 $$
 N(A)=nullspaces of A\\R(A)=column space of A
 $$
 
-<aside>
+
 📢 **Thm Fundamental Subspaces of a Matrix**
 
 A is $m*n$ martrix then
@@ -314,11 +276,7 @@ A is $m*n$ martrix then
 2. $R(A)$  and $N(A^T)$ are orthogonal subspace of $R^n$
 3. $R(A) \oplus N(A^T) =R^m$
 4. $R(A^T) \oplus N(A) =R^n$
-</aside>
 
-</aside>
-
-<aside>
 ⭐ **Least Square Analysis**
 
 **一次回歸:** 
@@ -427,4 +385,3 @@ for i in range(3):
 print(Cramer(BBT))
 ```
 
-</aside>

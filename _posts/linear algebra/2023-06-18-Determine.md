@@ -3,7 +3,7 @@ title: "Determine"
 subtitle: "Determine"
 layout: post
 author: "Hsu"
-published: flase
+published: true
 header-style: text
 tags:
   - linearalgebra
@@ -21,11 +21,12 @@ tags:
     </script>
 </head>
 
+
 # Determinant
 
 
 
-💡 **Def Determinant of a $2*2$**
+**Def Determinant of a $2*2$**
 
 $\begin{vmatrix}
    a_{11} & a_{12}\\
@@ -34,13 +35,10 @@ $\begin{vmatrix}
 
 
 
-✅ **How to find det. of square martrix of order higher than 2**
+**How to find det. of square martrix of order higher than 2**
 
 
-
-
-
-💡 **Def Minors and Cofactors**
+**Def Minors and Cofactors**
 
 **Minors: $M_{ij}$**
 
@@ -49,9 +47,7 @@ $\begin{vmatrix}
 
 
 
-
-
-💡 **Def The determinant of Square Matrix**
+**Def The determinant of Square Matrix**
 
 
 
@@ -68,7 +64,7 @@ $i^{th}$ row expansion
 $j^{th}$ col expansion
 
 
-✅ **Code Determine**
+**Code Determine**
 
 ```python
 def det(m):
@@ -89,27 +85,17 @@ def det(m):
 
 
 
-
-
-
-
 # Determinants Operation
 
-
-📢 **Thm row/col Operation and Determinants**
+**Thm row/col Operation and Determinants**
 
 1. Inchange two row or col of A 
 2. Adding a multiple of a row or col to another row or col 
 3. Muliple a row or col $c(c{=}\mathllap{/\,}0)$
 
-1. 值加加負號
-2. 值不變
-    
-    
-3. 值多乘c
 
 
-💡 Thm  Determinant is 0
+**Thm  Determinant is 0**
 
 1. 一列(行)為零
 2. 兩列(行)為倍數關係
@@ -118,45 +104,47 @@ def det(m):
 # Properties
 
 
-📢 **Thm Product**
+**Thm Product**
 
 $$
 det(AB)=det(A)det(B)
 $$
 
-📢 **Thm** **Scalar Multiple of a Matrix**
+
+
+
+**Thm** **Scalar Multiple of a Matrix**
 
 $$
 det(cA)=c^n det(A)
 $$
 
 
-📢 **Thm** **Invertible Martix Properties**
+**Thm** **Invertible Martix Properties**
 
 $$
 det(A^{-1})=1/det(A)
 $$
 
 
-📢 **Thm Determinant of Transpose**
+**Thm Determinant of Transpose**
 
 $$
 det(A^{T})=det(A)
 $$
 
 
-
 # Application
 
 
-💡 **Thm Find Inverse using Adjoint**
+**Thm Find Inverse using Adjoint**
 
-$$
-⁍⁍⁍
-$$
+```math
+A^{-1}=\frac{1}{det(A)}adj(A)
+```
 
 
-❓ **Def Adjoint Matrix**
+**Def Adjoint Matrix**
 
 $$
 adj(A)=\begin{bmatrix}
@@ -166,7 +154,7 @@ C_{11} & C_{12}&\dots & C_{n1}\\
 $$
 
 
-✅ **Code Inverse**
+**Code Inverse**
 
 ```python
 from fractions import Fraction
@@ -215,16 +203,20 @@ except:
     print("Singular")
 ```
 
-💡 **Thm Area of Triangle in xy-Plane**
+
+**Thm Area of Triangle in xy-Plane**
 
 The area of triangle with vertices $(x_{1},y_{1}),(x_{2},y_{2}),(x_{3},y_{3})$ is
 
-$$
-⁍⁍
-$$
+```math
+Area=\frac{1}{2}\left| \left |\begin{array}{}      x_{1} &y_{1}   & 1 \\
+x_{2} &y_{2} & 1  \\
+x_{3} &y_{3} &1 \\
+\end{array}\right|  \right|
+```
 
 
-✅ **Find colinear**
+**Find colinear**
 
 
 
@@ -235,11 +227,12 @@ x_{3} &y_{3} &1 \\
 \end{array}\right|  \right|=0
 $$
 
-💡 **Thm Volume of Tetrahedron**
+
+**Thm Volume of Tetrahedron**
 
 The area of triangle with vertices $(x_{1},y_{1},z_{1}),(x_{2},y_{2},z_{2}),(x_{3},y_{3},z_{3}),(x_{4},y_{4},z_{4})$ is
 
-![Untitled](Determine%203bdbe917a324402db46ee3e2071dbd15/Untitled%202.png)
+
 
 $$
 Area=\frac{1}{6}\left| \left |\begin{array}{}      x_{1} &y_{1}   & z_{1} &1 \\
@@ -249,7 +242,7 @@ x_{3} &y_{3} & z_{3} &1 \\x_{4} &y_{4} & z_{4} &1
 $$
 
 
-✅ **Find coplanar**
+**Find coplanar**
 
 
 
@@ -260,8 +253,7 @@ x_{3} &y_{3} & z_{3} &1 \\x_{4} &y_{4} & z_{4} &1
 \end{array}\right|  \right|=0
 $$
 
-
-💡 **Thm Cramer’s Rule**
+**Thm Cramer’s Rule**
 
 
 

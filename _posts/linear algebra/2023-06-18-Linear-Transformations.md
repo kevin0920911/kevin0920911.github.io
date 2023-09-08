@@ -26,7 +26,7 @@ tags:
 # Image and Preimage
 
 
-💡 **Domain, Range, Image, Preimage**
+**Domain, Range, Image, Preimage**
 
 
 **Image:** 經過f映射後的值
@@ -38,7 +38,7 @@ tags:
 # Linear Transformations
 
 
-💡 **Def Linear Transformations**
+**Def Linear Transformations**
 
 Let V and W be vector spaces. The Function
 
@@ -52,14 +52,14 @@ is a Linear Transformations of V to W. Then,
 2. $T(cu)=cT(u)$
 
 
-📢 **Thm Properties of Linear Transformations**
+**Thm Properties of Linear Transformations**
 
 1. $T(0)=0$
 2. $T(-v)=-T(v)$
 3. $T(u-v)=T(u)-T(v)$
 4. $T(c_1v_1+c_2v_2\dots+c_nv_n)=T(c_1v_1)+T(c_2v_2)\dots+T(c_nv_n)$
 
-📢 **Thm Linear Transfirmation Given by a Matrix**
+**Thm Linear Transfirmation Given by a Matrix**
 
 Translate $R^n \rightarrow R^m$  
 
@@ -73,24 +73,24 @@ where A is m*n martix, v is n*1 martix , T(v) is m*1 martrix
 # Kernel and Range
 
 
-💡 **Def Kernel of Kinear Transformation**
+**Def Kernel of Kinear Transformation**
 
 Let $T: V \rightarrow W$. Then the set of all vectors $v \in V$ satisfy that $**T(v)=0$ is $ker(T)$** 
 
 
-📢 **Thm Kernel is the Subspace of V**
+**Thm Kernel is the Subspace of V**
 
 $ker(T)$ is a subspace of  $V$
 
 
-📢 **Thm Corollary**
+**Thm Corollary**
 
 Let $T: R^n \rightarrow R^m$ , and T is $T=Av$
 
 Then The Kernel of T is the solution space of $Ax=0$
 
 
-💡 **Def Range of Linear Tramsformation**
+**Def Range of Linear Tramsformation**
 
 $T: V\rightarrow W$
 
@@ -99,17 +99,17 @@ range(T)=\{ T(v): v\in V \}
 $$
 
 
-📢 **Thm The Range of T Is a subspace of W**
+**Thm The Range of T Is a subspace of W**
 
 The range of a linear transformation $T: V \rightarrow W$ is a subspace of W
 
 
-📢 **Thm Corollary**
+**Thm Corollary**
 
 Let $T: R^n\rightarrow R^m$    be the linear transformation $T(x)=Ax$. Then the **col space of A is equal to the range(T)**
 
 
-💡 **Def Rank(T) Nullity(T)**
+**Def Rank(T) Nullity(T)**
 
 1. $nullity(T) = dim(ker(T))$
 2. $rank(T) = dim(range(T))$
@@ -123,40 +123,36 @@ $$
 # One to One & Onto
 
 
-💡 **Def One to One**
+**Def One to One**
 
 1. **One to One (一對一，傳入傳出唯一):** $ker(T) =\{0\}$ if and only if one to one
 2. **Onto (值域用完):**  $rank(T) = dim(W)$  if and only if onto 
 
 
-📢 **Thm one to one and onto Linear Transformation**
+**Thm one to one and onto Linear Transformation**
 
 Let $T:V\rightarrow W$  be linear transformation with vector spaces V and W.
 
 1. $dim(V)=dim(W)=n$
 2. Then if T is one to one if and only if onto
-</aside>
 
-<aside>
-💡 **Def Isomorphism**
+
+
+**Def Isomorphism**
 
 If T is one to one and onto is called **Isomorphism** 
 
-<aside>
-📢 **Thm** **Isomorphism spaces and dimension**
+
+**Thm** **Isomorphism spaces and dimension**
 
 V and W are **Isomorphism** if and only if they are the same of dim
 
-</aside>
 
-</aside>
-
-</aside>
 
 # Martrix for Linear Transformations
 
-<aside>
-💡 **Thm The stanfard Martix of Linear Transformation**
+
+**Thm The stanfard Martix of Linear Transformation**
 
 Let $T: R^n \rightarrow R^m$ be a linear transformation such that, for the standrad basis basis vector $e_i$ of  $R^n$
 
@@ -182,18 +178,18 @@ A=\begin{bmatrix} x_{11}&&x_{12} &&\dots && x_{1m}  \\ x_{21}&&x_{22} &&\dots &&
 \end{bmatrix}
 $$
 
-</aside>
+
 
 # Composition of Linear Transformation
 
-<aside>
-💡 **Def Composition**
+
+**Def Composition**
 
 $$
 T(v)=T_1(T_2(v))
 $$
 
-<aside>
+
 📢 **Thm Composition of Linear Transformation**
 
 1. $T_1(v)=A_1v$
@@ -203,20 +199,15 @@ $$
 T(v)=T_1(T_2(v))=A_1A_2v
 $$
 
-</aside>
 
-<aside>
-💡 **Def Inverse of Linear Transformation**
+**Def Inverse of Linear Transformation**
 
 1. $T_2(T_1(v))=v$
 2. $T_1(T_2(v))=v$
 
 then $T_1$  is be said inverse of $T_2$ , and $T_1$  is invertible 
 
-</aside>
-
-<aside>
-📢 **Thm Existence of an Inverse Transformation**
+**Thm Existence of an Inverse Transformation**
 
 1. T is inveritiblem
 2. T is an isomorphism**(one to one + onto)** 
@@ -224,16 +215,13 @@ then $T_1$  is be said inverse of $T_2$ , and $T_1$  is invertible
 
 Then the standrad matrix of $T^{-1}$ is $A^{-1}$
 
-</aside>
-
-</aside>
 
 # Nonstandard Bases and General Vector Spaces
 
  
 
-<aside>
-💡 **Transformation Matrix for Nonstandard Bases**
+
+**Transformation Matrix for Nonstandard Bases**
 
 Let V and W be fiinite-dim vector spaces with bases $B$$\space to \space$$B'$ where $B=\{ v_1 , v_2 \dots , v_n\}$ 
 
@@ -263,33 +251,32 @@ $$
 
 is such that $[T(v)]_{B'}=A[v]_{B}$
 
-</aside>
+
 
 # Transition Matrix
 
-<aside>
+
 💡 **Transition Matrix**
 
 
 
-</aside>
+
 
 # Similar Matrix
 
-<aside>
-💡 **Def Similar Matrix**
+
+**Def Similar Matrix**
 
 1. Square Matrix $A$  and $A'$
 2. Exist an inverible martix P st $A'=P^{-1}AP$
 
 $A$ is be say that similar to $A'$
 
-</aside>
 
-<aside>
-💡 **Thm Properties of Similar Marix**
+
+
+**Thm Properties of Similar Marix**
 
 1. A is similar to A
 2. A is simialr to B, B is similar to A
 3. A is simialr to B, B is similar to C, A is similar to C
-</aside>

@@ -23,33 +23,29 @@ tags:
 
 # Vector in $R^n$
 
-<aside>
-💡 **Vector in $R^n$**
+ 
+**Vector in $R^n$**
 
 $R^n =$ n-space $=$ **n-tuple : $(x_1,x_2,x_2\dots,x_n)$**
 
-<aside>
-💡 **Vector Operation**
+ 
+**Vector Operation**
 
 Let $u=(u_1,u_2\dots,u_n)$      $v=(v_1,v_2\dots,v_n)$ 
 
 1. addition 
 
-$$
-              ⁍ 
-$$
+$ u+v=(u_1+v_1,u_2+v_2\dots,u_n+v_n) $
 
 1. scalar multiplication
-</aside>
-
+ 
 $$
 cu=(cu_1,cu_2\dots,cu_n)
 $$
 
-</aside>
-
-<aside>
-💡 **Def Linear Combination of Vector**
+ 
+ 
+**Def Linear Combination of Vector**
 
 Both x and v is vector, c is scale
 
@@ -57,12 +53,11 @@ $$
 x=c_1v_1+c_2v_2\dots+c_nv_n
 $$
 
-</aside>
-
+ 
 # Vector Spaces
 
-<aside>
-💡 **Def** **Vector Spaces**
+ 
+**Def** **Vector Spaces**
 
 1. Let V be a set 
 2. If the listed axioms are satisfied for all operation 
@@ -83,72 +78,61 @@ $$
 4. $c(du)=cd(u)$
 5. $1u=u$
 
-<aside>
-🔥 **Anyway 農眉毛說證明最多只考反證明**
+ 
+**Anyway 農眉毛說證明最多只考反證明**
 
-</aside>
-
-</aside>
-
+ 
+ 
 # Subspaces of Vector Spaces
 
-<aside>
-💡 **Def Subspaces of Vector Spaces**
+ 
+**Def Subspaces of Vector Spaces**
 
 1. **Subspace**: W
 2. **Vector**: V
 3. W if a vector space under the operation of **scalar** and **addition** define by V
 
-<aside>
-📢 **Test for Subspaces**
+ 
+**Test for Subspaces**
 
 1. if $u,v \in W$ $u+v \in W$
 2. if $u \in W$ and c is scalar, then $cu \in W$
-</aside>
-
-<aside>
-📢 **Intersection of Two subspaces is a subspace**
+ 
+ 
+**Intersection of Two subspaces is a subspace**
 
 兩個subspace的交集還是會在V內
 
-$$
-⁍ 
-$$
+$V \cap W\in V $
+ 
+ 
+ 
+**Subspace in $R^n$**
 
-</aside>
-
-</aside>
-
-<aside>
-💡 **Subspace in $R^n$**
-
-<aside>
+ 
 1️⃣ $R^2$
 
 1. W consist of single point (0,0)
 2. W consist all points on a line that process through the origin 
 3. W consists of all of $R^2$
-</aside>
-
-<aside>
+ 
+ 
 2️⃣ $R^3$
 
 1. W consist of single point (0,0,0)
 2. W consist all points on a line that process through the origin 
 3. W consists of all of $R^2$
-</aside>
-
-</aside>
-
+ 
+ 
 # Spanning set
 
-<aside>
-💡 **Def Spanning set of Vector space**
+ 
+**Def Spanning set of Vector space**
 
 Set S 任一種組合向量皆可表示成V中每一個向量 **(call S span V)**
 
-<aside>
-⭐ **用數學的方式表達**
+ 
+**用數學的方式表達**
 
 $S=\{ v_1,v_2,\dots,v_n\}$  is a set of vector 
 
@@ -156,148 +140,125 @@ $span(S)=\{ c_1v_1+c_2v_2+ \dots + c_nv_n\}$
 
 when $span(S)=V$, it is said that **V is spaned by S**
 
-</aside>
-
-</aside>
-
+ 
+ 
 # Linear Independence
 
-<aside>
-💡 **Def Linear independece**
+ 
+**Def Linear independece**
 
-$$
-⁍=0
-$$
+$c_1v_1+c_2v_2+ \dots + c_nv_n=0$
 
 1. **Trivial Solution :** Linear independece
 2. **Nontrivial Solution :** Linear dependece
 
-<aside>
-⭐ **Thm A property of Linear Dependent Sets**
+ 
+**Thm A property of Linear Dependent Sets**
 
 Set S is linear dependent if and only if one of vector can be written as a linear combination of other vectors in S
 
-<aside>
-⭐ **Corollary**
+ 
+**Corollary**
 
 1. Two vector u and v is in vector space
 2. Both of them are linear dependent 
 3. **A scalar multiple of the other**
-</aside>
-
-</aside>
-
-</aside>
-
+ 
+ 
+ 
 # Basis and Dimension
 
-<aside>
-💡 **Def Basis**
+ 
+**Def Basis**
 
 set of vector $S=\left\{ v_1,v_2,\dots , v_3 \right\}$ in vector space V is basis for V when the conditions below are true
 
 1. S span V
 2. S is linearly independent
 
-<aside>
-📢 **Thm Uniqueneaa of Basis Representation**
+ 
+**Thm Uniqueneaa of Basis Representation**
 
 1. S is basis in V
 2. V is vector spaces
 
 Every vector in V can be writen in one way as linear combination of vector S
 
-</aside>
-
-<aside>
-📢 **Thm  Bases and Linear Dependence**
+ 
+ 
+**Thm  Bases and Linear Dependence**
 
 1. S is basis in V  ($S=\left\{ v_1,v_2,\dots , v_3 \right\}$)
 2. V is vector spaces
 
 Every set containing more than n vectors in V is **linearly dependent**
 
-</aside>
-
-<aside>
-📢 **Thm Number of Vectirs in a Basis**
+ 
+ 
+**Thm Number of Vectirs in a Basis**
 
 If vector space V has one basis with n vectors, then every basis for V has n vectors. 
 
 **Notion: $dim(V)=n$**
 
-<aside>
-✅ **常見向量空間整理**
+ 
+**常見向量空間整理**
 
-1. $R^n$
-2. $P_n$
-3. $M_{m,n}$
+1. $R^n$ -> n
+2. $P_n$-> n+1
+3. $M_{m,n}$ -> m*n
 
-n
 
-n+1
-
-m*n
-
-</aside>
-
-</aside>
-
-<aside>
-📢 **Thm Test for Basis for n-dim Space**
+ 
+ 
+ 
+**Thm Test for Basis for n-dim Space**
 
 Let V is vector space, and $dim(V)=n$
 
 1. If  $S=\left\{ v_1,v_2,\dots , v_n \right\}$ is linear independent set of Vector in V, then S is basis for V
 2. If   $S=\left\{ v_1,v_2,\dots , v_n \right\}$ spans V ,then S is basis for V
-</aside>
-
-</aside>
-
+ 
+ 
 # Row-Space , Col-Space ,rank
 
-<aside>
-💡 **Def row & col space**
+ 
+**Def row & col space**
 
 Let A be a $m*n$ matrix
 
 1. The row space of **A is the subspace of $R^n$** spanned by row vector of A
 2. The col space of **A is the subspace of $R^m$** spanned by col vector of A
 
-<aside>
-📢 **Thm Row-Equivalent**
+ 
+**Thm Row-Equivalent**
 
  If an $m*n$ matrix A is row-equivalent to an $m*n$ matrix B, then the row space of A is equal to row space of B.
 
-</aside>
-
-<aside>
-📢 **Thm Basis for the Row Space of Matrix**
+ 
+ 
+**Thm Basis for the Row Space of Matrix**
 
 1. $A \rightarrow B(row-echelon form)$
 2. Nonezero row vector of B is a basis form row-space of A (**subspace of $R^n$**)
-</aside>
-
-<aside>
-📢 **Thm Row Space and Col Space Have equal Dim**
+ 
+ 
+**Thm Row Space and Col Space Have equal Dim**
 
 $dim(row-space)=dim(col-space)$
 
-</aside>
-
-<aside>
-💡 **Def Rank**
+ 
+ 
+**Def Rank**
 
 $dim(row-space)=dim(col-space)= rank(A)$
 
-</aside>
-
-</aside>
-
+ 
+ 
 # NullSpace
 
-<aside>
-💡 **Def Nullspace**
+ 
+**Def Nullspace**
 
 The solution of linear equation $Ax=0$ is the subspace of $R^n$ called **nullspace** of A (Notion: $N(A)$)
 
@@ -307,8 +268,8 @@ $$
 
 The dimension of the nullspace of A is nullity of A
 
-<aside>
-📢 **Thm Dimension of the Solution Space**
+ 
+**Thm Dimension of the Solution Space**
 
 If A is $**m*n$**  martix rank r
 
@@ -316,14 +277,12 @@ $$
 n=rank(A)+nullity(A)
 $$
 
-</aside>
-
-</aside>
-
+ 
+ 
 # Solution of Linear Equations
 
-<aside>
-📢 **Thm Solution of Nonhomogenwous Linear Systeam**
+ 
+**Thm Solution of Nonhomogenwous Linear Systeam**
 
 1. $x_p$ is a particular solution of nonhomogeneous system $Ax=b$
 2. $x_h$  is the solution of homogeneous system $Ax=0$
@@ -334,19 +293,17 @@ $$
 x=x_h+x_p
 $$
 
-<aside>
-📢 **Thm Solution of a System of Linear Equation**
+ 
+**Thm Solution of a System of Linear Equation**
 
 The system $Ax=b$ is consistent $\leftrightarrow$ **b is the col space of A**
 
-</aside>
-
-</aside>
-
+ 
+ 
 # Coordinate Representaion in $R^n$
 
-<aside>
-💡 **Def Coordinate Representation Relative to a Basis**
+ 
+**Def Coordinate Representation Relative to a Basis**
 
 Let $B=\left\{ v_1,v_2 \dots , v_n\right\}$ be an ordered basis for a vector space V and let $x\in V$
 
@@ -362,12 +319,11 @@ c_1\\c_2\\c_3 \\ \vdots \\ c_n
 \end{bmatrix}
 $$
 
-</aside>
-
+ 
 # Change of Basis in $R^n$
 
-<aside>
-💡 **Thm the Inverse of Transition Matrix**
+ 
+**Thm the Inverse of Transition Matrix**
 
 **Transition matrix from $B$ to $B'$:  $P^{-1}$**
 
@@ -377,16 +333,15 @@ $$
 P[x]_{B'}=[x]_{B} \rightarrow [x]_{B'}=P^{-1}[x]_{B} 
 $$
 
-<aside>
-💡 **Thm Transition Matrix from $B$ to $B'$**
+ 
+ **Thm Transition Matrix from $B$ to $B'$**
 
 1. **USE GAUSS-JORDAN ELIMINATION**
 2. $[B'\space\space\space |\space\space\space B]  \space\rightarrow\space [I\space\space\space|\space\space\space P^{-1}]$
 
-</aside>
-
-<aside>
-✅ **Code Change of Basis in $R^n$**
+ 
+ 
+**Code Change of Basis in $R^n$**
 
 ```python
 import copy
@@ -437,6 +392,4 @@ for i in Ans:
     print()
 ```
 
-</aside>
-
-</aside>
+ 

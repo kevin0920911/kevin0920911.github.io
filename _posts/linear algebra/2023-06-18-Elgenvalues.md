@@ -3,12 +3,13 @@ title: "Elgenvalues"
 subtitle: "Elgenvalues"
 layout: post
 author: "Hsu"
-published: flase
+published: true
 header-style: text
 tags:
   - linearalgebra
   - Python
 ---
+
 <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
@@ -21,21 +22,19 @@ tags:
     </script>
 </head>
 
-# Elgenvalues
 
-Status: Not started
 
 # Eigenvalue and Eigenvector
 
 
-💡 **Def Eigenvalue and Eigenvector**
+**Def Eigenvalue and Eigenvector**
 
 Let A be an n*n matrix. The scalar $\lambda$ is an eigenvalue of A when there is a nonzero vector x such that $Ax=\lambda x$. The vector is an eigenvector of A corresponding to $\lambda$ . 
 
 
 
 
-📢 **Thm Finding Eigenvalue and Eigenvector of a Matrix**
+**Thm Finding Eigenvalue and Eigenvector of a Matrix**
 
 Let A be an n*n matrix
 
@@ -45,9 +44,7 @@ Let A be an n*n matrix
 If A is an n*n triangular matrix, then its eigenvalue are the entires on its main diagonal(對角線)
 
 
-
-
-📢 **Thm Triangular Matrix**
+**Thm Triangular Matrix**
 
 ```python
 import math
@@ -171,7 +168,8 @@ for i in det(M).slove():
 
 # Eigenspaces
 
-💡 **Thm Eigenvectors of $\lambda$  Form a subspace**
+
+**Thm Eigenvectors of $\lambda$  Form a subspace**
 
 If A is an n*n matrix with an eigenvalue $\lambda$, then the set of all eigenvectors of  $\lambda$  with zero vector
 
@@ -186,7 +184,7 @@ is a subspace of $R^n$. This subspace is eigenspace of $\lambda$.
 # Diagonalization
 
 
-💡 **Def Diagonalizable Matrix**
+**Def Diagonalizable Matrix**
 
 An n*n matrix A is diagonalizable when A is similar to a diagonal matrix.
 
@@ -195,36 +193,35 @@ $$
 $$
 
 
-📢 **Thm Similar Matrice**
+**Thm Similar Matrice**
 
 Similar Martrix have the same eigenvalue
 
-📢 **Thm Codition for Diagonalization**
+**Thm Codition for Diagonalization**
 
 An n*n matrix A is diagonalizable if and only if it has n linearly indeoendent eigenvectors
 
-
-📢 **Thm Sufficient Condition for Diagonalization**
+**Thm Sufficient Condition for Diagonalization**
 
 If n*n matrix A has n distinct eigenvalues, then the correspnding eigenvectors are linear independent and A is diagonalizable
 
 
-⚠️ **Step for Diagonalizing**
+**Step for Diagonalizing**
 
 1. Find n linearly independent eigenvectors $p_1 \space p_2\space p_3 \dots p_n$
 2. Let P be n*n matrix: $P=[p_1 \space p_2 \space\dots p_n]$
 3. Then get $D=P^{-1}AP$
-</aside>
+
 
 # Stmmetric Matrices and Orthogonal Diagonalization
 
 
-💡 **Def Symmetric Matrix**
+**Def Symmetric Matrix**
 
 A square matrix A is symmetric when $A=A^T$
 
 
-📢 **Thm Properties of Symmetric Matric**
+**Thm Properties of Symmetric Matric**
 
 If A is n*n symmetric matrix, then the properties listed below are true
 
@@ -232,23 +229,27 @@ If A is n*n symmetric matrix, then the properties listed below are true
 2. All eigenvalue of A are real .
 3. If $\lambda$  is an eigenvalue of A with **Multiplicity** k, then $\lambda$ has k linearly indepentent eigenvalue. That is, the eigenvalue of $\lambda$ has dimension k
 
-💡 **Def Orthgonal Matrix**
+
+**Def Orthgonal Matrix**
 
 A square P is orthogonal when it is invertible and $P^T=P^{-1}$
 
 **ps 共乘P可得$I=PP^T$**
 
 
-📢 **Thm Properties of Orthgonal Matrix**
+**Thm Properties of Orthgonal Matrix**
 
 An n*n matrix P is Orthogonal **if and only if** its col vector form an **orthornormal** set
 
-📢 **Thm Property of Symmetric Matrix**
+
+**Thm Property of Symmetric Matrix**
 
 Let A be an n*n symmetric matrix. If $\lambda_1 \& \lambda_2$ are distinct eigenvalue of A, then their corresponding eigenvector $x_1$  and $x_2$ are orthogonal
 
 
-💡 **How to get Diagonalization of Symmetric Matrix**
+
+
+**How to get Diagonalization of Symmetric Matrix**
 
 1. Find eigenvalue
 2. 無重跟: 算出eigenvalue 對應的特徵向量，並單位化
