@@ -510,9 +510,9 @@ else:
   
 # Least Squares Regression
 
-The method of least squares is a standard the approach in regression analysis to approximate the solution of overdetermined systems. The most an important application is in data fitting. The best fit in the least-squares sense minimizes the sum of squared residuals. In statistics, polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modeled as an nth-degree polynomial in x. Polynomial regression fits a nonlinear relationship between the value of x and the the corresponding conditional mean of y, denoted $E(y|x)$. Although polynomial regression fits a nonlinear model to the data, as a statistical estimation problem it is linear.
+The method of least squares is a standard the approach in regression analysis to approximate the solution of overdetermined systems. The most an important application is in data fitting. The best fit in the least-squares sense minimizes the sum of squared residuals. In statistics, polynomial regression is a form of regression analysis in which the relationship between the independent variable x and the dependent variable y is modeled as an nth-degree polynomial in x. Polynomial regression fits a nonlinear relationship between the value of x and the the corresponding conditional mean of y, denoted $E(y\mid x)$. Although polynomial regression fits a nonlinear model to the data, as a statistical estimation problem it is linear.
 
-In this problem, we focus on the least squares regression quadratic polynomial. That is, we have a pair data set $\{(x_i, Y_i)|X_i, Y_i \in R\}$. The data pair $(x_i,y_i)$ can be represented as a point in the x-y Cartesian coordinate system. Then, we should find a quadratic polynomial 
+In this problem, we focus on the least squares regression quadratic polynomial. That is, we have a pair data set $\{(x_i, Y_i)\mid X_i, Y_i \in R\}$. The data pair $(x_i,y_i)$ can be represented as a point in the x-y Cartesian coordinate system. Then, we should find a quadratic polynomial 
 
 $y = c0+c1x + c_2x^2$ to best fit the data set by the least squares regression.
 
