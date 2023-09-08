@@ -10,13 +10,11 @@ tags:
   - Python
 ---
 
-# Determine
-
-Status: Done
 
 # Determinant
 
-<aside>
+
+
 💡 **Def Determinant of a $2*2$**
 
 $\begin{vmatrix}
@@ -24,12 +22,14 @@ $\begin{vmatrix}
    a_{21} & a_{22}
 \end{vmatrix}$$=$$a_{11}*a_{22}-a_{12}*a_{21}$
 
-<aside>
+
+
 ✅ **How to find det. of square martrix of order higher than 2**
 
-</aside>
 
-<aside>
+
+
+
 💡 **Def Minors and Cofactors**
 
 **Minors: $M_{ij}$**
@@ -38,12 +38,12 @@ $\begin{vmatrix}
 
 ![Untitled](Determine%203bdbe917a324402db46ee3e2071dbd15/Untitled.png)
 
-</aside>
 
-<aside>
+
+
 💡 **Def The determinant of Square Matrix**
 
-</aside>
+
 
 $det(A)=\begin{vmatrix}
    A
@@ -57,7 +57,7 @@ $i^{th}$ row expansion
 
 $j^{th}$ col expansion
 
-<aside>
+
 ✅ **Code Determine**
 
 ```python
@@ -77,9 +77,9 @@ def det(m):
         return total
 ```
 
-</aside>
 
-<aside>
+
+
 ⭐ **More useful skill to get det.**
 
 1. **3*3 det.**
@@ -92,13 +92,11 @@ def det(m):
     ⁍⁍
     $$
     
-</aside>
 
-</aside>
 
 # Determinants Operation
 
-<aside>
+
 📢 **Thm row/col Operation and Determinants**
 
 1. Inchange two row or col of A 
@@ -111,63 +109,54 @@ def det(m):
     
 3. 值多乘c
 
-<aside>
+
 💡 Thm  Determinant is 0
 
 1. 一列(行)為零
 2. 兩列(行)為倍數關係
-</aside>
 
-</aside>
 
 # Properties
 
-<aside>
+
 📢 **Thm Product**
 
 $$
 det(AB)=det(A)det(B)
 $$
 
-</aside>
-
-<aside>
 📢 **Thm** **Scalar Multiple of a Matrix**
 
 $$
 det(cA)=c^n det(A)
 $$
 
-</aside>
 
-<aside>
 📢 **Thm** **Invertible Martix Properties**
 
 $$
 det(A^{-1})=1/det(A)
 $$
 
-</aside>
 
-<aside>
 📢 **Thm Determinant of Transpose**
 
 $$
 det(A^{T})=det(A)
 $$
 
-</aside>
+
 
 # Application
 
-<aside>
+
 💡 **Thm Find Inverse using Adjoint**
 
 $$
 ⁍⁍⁍
 $$
 
-<aside>
+
 ❓ **Def Adjoint Matrix**
 
 $$
@@ -177,9 +166,7 @@ C_{11} & C_{12}&\dots & C_{n1}\\
 \end{bmatrix}^T
 $$
 
-</aside>
 
-<aside>
 ✅ **Code Inverse**
 
 ```python
@@ -229,11 +216,6 @@ except:
     print("Singular")
 ```
 
-</aside>
-
-</aside>
-
-<aside>
 💡 **Thm Area of Triangle in xy-Plane**
 
 The area of triangle with vertices $(x_{1},y_{1}),(x_{2},y_{2}),(x_{3},y_{3})$ is
@@ -242,10 +224,10 @@ $$
 ⁍⁍
 $$
 
-<aside>
+
 ✅ **Find colinear**
 
-</aside>
+
 
 $$
 \left| \left |\begin{array}{}      x_{1} &y_{1}   & 1 \\
@@ -254,9 +236,6 @@ x_{3} &y_{3} &1 \\
 \end{array}\right|  \right|=0
 $$
 
-</aside>
-
-<aside>
 💡 **Thm Volume of Tetrahedron**
 
 The area of triangle with vertices $(x_{1},y_{1},z_{1}),(x_{2},y_{2},z_{2}),(x_{3},y_{3},z_{3}),(x_{4},y_{4},z_{4})$ is
@@ -270,10 +249,10 @@ x_{3} &y_{3} & z_{3} &1 \\x_{4} &y_{4} & z_{4} &1
 \end{array}\right|  \right|
 $$
 
-<aside>
+
 ✅ **Find coplanar**
 
-</aside>
+
 
 $$
 \left| \left |\begin{array}{}      x_{1} &y_{1}   & z_{1} &1 \\
@@ -282,9 +261,7 @@ x_{3} &y_{3} & z_{3} &1 \\x_{4} &y_{4} & z_{4} &1
 \end{array}\right|  \right|=0
 $$
 
-</aside>
 
-<aside>
 💡 **Thm Cramer’s Rule**
 
 ![Untitled](Determine%203bdbe917a324402db46ee3e2071dbd15/Untitled%203.png)
@@ -336,4 +313,3 @@ if det(Coffient)==0:
         print("Too many")
 ```
 
-</aside>
