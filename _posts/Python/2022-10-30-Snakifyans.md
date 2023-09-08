@@ -20,12 +20,14 @@ c = int(input())
 print(a + b + c)
 ```
 >**後記:** input()出來是字串，要轉形
+
 ### Hi John
 ```python
 a=input()
 print("Hi ",a)
 ```
 > **後記:** Python的print預設是間隔一空白(如果要改預設可用sep 或+ 處理)，並換行
+
 ### Square
 ```python
 a= int(input())
@@ -38,12 +40,14 @@ h = int(input())
 print ( b*h/2 )
 ```
 > **後記:** Python這樣出來可以是float，不須管形別轉換，但C++要注意會不會強制轉換
+
 ### Hello, Harry!
 ```python
 name = input()
 print("Hello",name,"!",sep='')
 ```
 >**後記:** 2行可改成 `print('Hello, ' + input() + '!')`
+
 ### Apple sharing
 ```python
 n = int(input())
@@ -52,6 +56,7 @@ print(K//n)
 print(K%n)
 ```
 >**後記:** `//`是整除
+
 ### Previous and next
 ```python
 a= int(input())
@@ -110,6 +115,7 @@ print(sum)
 print(sum([ord(i)-48 for i in input()]))
 ```
 > **後記:** 可再延伸UVA題目: 10019 - Funny Encryption Method
+
 ### Fractional part
 #### 理想的解法
 ```python
@@ -126,6 +132,7 @@ else:
     print(0)
 ```
 >**後記:** Float不精確，要用字串處理才能得到標準答案
+
 ### First digit after decimal point
 #### 正常解法
 ```python
@@ -178,6 +185,7 @@ dollar=(A*100+B)*N
 print(dollar//100,dollar%100)
 ```
 >**後記:** Float不精確，改用int方式解
+
 ### Clock face - 1
 ```python
 H=int(input())
@@ -192,6 +200,7 @@ degree=float(input())
 print(degree*12%360)
 ```
 > **後記:** hour hand: min hand = 1 : 12
+
 ## CHAPTER 3
 ### Minimum of two numbers
 ```python
@@ -232,6 +241,7 @@ for i in range(2):
 print(A[2])
 ```
 > **後記:** Python 數值交換可以改成a,b=b,a，以元組形式
+
 ### Equal numbers
 ```python
 a=int(input())
@@ -278,6 +288,7 @@ else:
     print("NO")
 ```
 >**思路:** 同顏色 $x+y$  奇數(偶數)
+
 ### King move
 ```python
 A=[0,0,0,0]
@@ -289,6 +300,7 @@ else:
     print("NO")
 ```
 > **後記:** Python可以使用類似數學區間的表達式(-1<=A[0]-A[2]<=1)但C++不行，請注意
+
 ### Bishop moves
 ```python
 A=[0,0,0,0]
@@ -300,6 +312,7 @@ else:
     print("NO")
 ```
 >**後記:** `abs()`是取絕對值
+
 ### Queen move
 ```python
 A=[0,0,0,0]
@@ -341,6 +354,7 @@ else:
 > **後記:** 這題多考慮兩種情況
 >      1.長或寬可以整除所求
 >      2.面積大於所求
+
 ### Leap year
 ```python
 year=int(input())
@@ -352,12 +366,7 @@ else:
     print("COMMON")
 ```
 ## CHAPTER 4
-:::success
-**python for 迴圈**
-1.用陣列執行的
-2.range(起始,最終,累加) --> 產生的是一個陣列
-3.可用range() & 切片技巧達成類似C++的效果
-:::
+
 ### Series - 1
 ```python
 a=int(input())
@@ -408,6 +417,7 @@ print(sum)
 print(sum(map(lambda x:x**3,range(1,int(input())+1))))
 ```
 > **思路**: 用range()產生list並用map執行迭代，並回傳陣列給sum()並印出總和
+
 ### Factorial
 #### 正常做法
 ```python
@@ -653,6 +663,7 @@ for i in s:
         print(i,end="")
 ```
 > **思路:** 第一個h和最後一個h不能改，可以用判斷第幾個h的方式執行，再者碰到第一個與最後一個h以continue的方式跳過
+
 ### Delete every third character
 ```python
 s=input()
@@ -762,6 +773,7 @@ while(a!=0):
 print(max_address)
 ```
 > **後記:** 類似於氣泡排序
+
 ### The number of even elements of the sequence
 ```python
 a=int(input())
@@ -867,6 +879,7 @@ if (flag==0):
     print(-1)
 ```
 > **後記:** 看完解答才想到可以用兩變數(fib1,fib2)的方式實現，既不會浪費太多記憶體也不會浪費太多時間
+
 ### The maximum number of consecutive equal elements
 ```python
 n=int(input())
@@ -884,6 +897,7 @@ while n!=0:
 print(max_count)
 ```
 >**思路:** 用count的方式跟最大數到的數字比，若比較大則取代之
+
 ##  CHPTER 7
 :::success
 **List**
@@ -910,6 +924,7 @@ for i in a:
         print( i , end=' ')
 ```
 > **後記:** 列表生成式很好用 `[ int(i) for i in input().split()]` 可以直接生成一個列表
+
 ### Greater than previous
 ```python
 a=[int(e) for e in input().split()]
@@ -1035,6 +1050,7 @@ else:
     print("NO")
 ```
 > **後記:** 個人認為本章最困難的一題，有偷偷用二維陣列實現，但也是可以用一維處理 
+
 ### The bowling alley
 ```python
 N,K=map(int,input().split())
@@ -1054,6 +1070,7 @@ for i in range(N):
         print("I",sep="",end="")
 ```
 > 後記: 用bool的想法似乎又再多浪費時間，直接用.和I還比較快
+
 ## CHAPTER 8
 ### The length of the segment
 ```python
@@ -1090,6 +1107,7 @@ for i in range(0,len(a),1):
         print(a[i],end="")
 ```
 >後記: ASCII表大寫小寫差32(小寫比較大)
+
 :::warning
 **以下開始是遞迴**
 :::
@@ -1195,6 +1213,7 @@ for i in range(row):
     print()
 ```
 > 注意: line 3 `[["."]*col for i in range(row)]` 不能寫成`[["."]*col]*row`此種寫法的指標會和row=0時相同(原因是Python =和C++ = 概念不同)
+
 ### The diagonal parallel to the main
 ```python
 n = int(input())
