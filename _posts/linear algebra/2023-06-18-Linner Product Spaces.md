@@ -9,10 +9,19 @@ tags:
   - linearalgebra
   - Python
 ---
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 
-# Linner Product Spaces
 
-Status: Not started
 
 # Vector Length and Unit Vector
 
@@ -281,7 +290,7 @@ $$
 
 $\left|\left| v-proj_Sv\right|\right| < \left|\left| v-u\right|\right|$
 
-![Untitled](Linner%20Product%20Spaces%20e1f914d305c6456a8430cf78375ff78c/Untitled.png)
+
 
 </aside>
 

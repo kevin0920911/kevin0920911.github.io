@@ -9,7 +9,17 @@ tags:
   - linearalgebra
   - Python
 ---
-
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 
 # Determinant
 
@@ -36,7 +46,7 @@ $\begin{vmatrix}
 
 **Cofactors: $C_{ij}$$= (-1)^{i+j}M_{ij}$．**
 
-![Untitled](Determine%203bdbe917a324402db46ee3e2071dbd15/Untitled.png)
+
 
 
 
@@ -80,18 +90,7 @@ def det(m):
 
 
 
-⭐ **More useful skill to get det.**
 
-1. **3*3 det.**
-    
-    ![Untitled](Determine%203bdbe917a324402db46ee3e2071dbd15/Untitled%201.png)
-    
-2. **Upper Martix & Lower Martrix det.**
-    
-    $$
-    ⁍⁍
-    $$
-    
 
 
 # Determinants Operation
@@ -264,7 +263,7 @@ $$
 
 💡 **Thm Cramer’s Rule**
 
-![Untitled](Determine%203bdbe917a324402db46ee3e2071dbd15/Untitled%203.png)
+
 
 $$
 x_{1}=\frac{det(A_{1})}{det(A)}, x_{2}=\frac{det(A_{2})}{det(A)} \dots,x_{n}=\frac{det(A_{n})}{det(A)}

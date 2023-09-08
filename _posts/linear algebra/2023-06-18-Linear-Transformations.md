@@ -9,27 +9,35 @@ tags:
   - linearalgebra
   - Python
 ---
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
 
-# Linear Transformations
 
-Status: Not started
 
 # Image and Preimage
 
-<aside>
+
 💡 **Domain, Range, Image, Preimage**
 
-![Untitled](Linear%20Transformations%20d0b02fa72f054310a7075252c41f6240/Untitled.png)
 
 **Image:** 經過f映射後的值
 
 **Preimage:** 反函數
 
-</aside>
+
 
 # Linear Transformations
 
-<aside>
+
 💡 **Def Linear Transformations**
 
 Let V and W be vector spaces. The Function
@@ -43,16 +51,14 @@ is a Linear Transformations of V to W. Then,
 1. $T(u+v)=T(u)+T(v)$
 2. $T(cu)=cT(u)$
 
-<aside>
+
 📢 **Thm Properties of Linear Transformations**
 
 1. $T(0)=0$
 2. $T(-v)=-T(v)$
 3. $T(u-v)=T(u)-T(v)$
 4. $T(c_1v_1+c_2v_2\dots+c_nv_n)=T(c_1v_1)+T(c_2v_2)\dots+T(c_nv_n)$
-</aside>
 
-<aside>
 📢 **Thm Linear Transfirmation Given by a Matrix**
 
 Translate $R^n \rightarrow R^m$  
@@ -63,36 +69,27 @@ $$
 
 where A is m*n martix, v is n*1 martix , T(v) is m*1 martrix
 
-</aside>
-
-</aside>
 
 # Kernel and Range
 
-<aside>
+
 💡 **Def Kernel of Kinear Transformation**
 
 Let $T: V \rightarrow W$. Then the set of all vectors $v \in V$ satisfy that $**T(v)=0$ is $ker(T)$** 
 
-<aside>
+
 📢 **Thm Kernel is the Subspace of V**
 
 $ker(T)$ is a subspace of  $V$
 
-</aside>
 
-<aside>
 📢 **Thm Corollary**
 
 Let $T: R^n \rightarrow R^m$ , and T is $T=Av$
 
 Then The Kernel of T is the solution space of $Ax=0$
 
-</aside>
 
-</aside>
-
-<aside>
 💡 **Def Range of Linear Tramsformation**
 
 $T: V\rightarrow W$
@@ -101,23 +98,17 @@ $$
 range(T)=\{ T(v): v\in V \}
 $$
 
-<aside>
+
 📢 **Thm The Range of T Is a subspace of W**
 
 The range of a linear transformation $T: V \rightarrow W$ is a subspace of W
 
-</aside>
 
-<aside>
 📢 **Thm Corollary**
 
 Let $T: R^n\rightarrow R^m$    be the linear transformation $T(x)=Ax$. Then the **col space of A is equal to the range(T)**
 
-</aside>
 
-</aside>
-
-<aside>
 💡 **Def Rank(T) Nullity(T)**
 
 1. $nullity(T) = dim(ker(T))$
@@ -127,17 +118,17 @@ $$
 rank(T)+nullity(T)= domain(T)
 $$
 
-</aside>
+
 
 # One to One & Onto
 
-<aside>
+
 💡 **Def One to One**
 
 1. **One to One (一對一，傳入傳出唯一):** $ker(T) =\{0\}$ if and only if one to one
 2. **Onto (值域用完):**  $rank(T) = dim(W)$  if and only if onto 
 
-<aside>
+
 📢 **Thm one to one and onto Linear Transformation**
 
 Let $T:V\rightarrow W$  be linear transformation with vector spaces V and W.
@@ -279,7 +270,7 @@ is such that $[T(v)]_{B'}=A[v]_{B}$
 <aside>
 💡 **Transition Matrix**
 
-![Untitled](Linear%20Transformations%20d0b02fa72f054310a7075252c41f6240/Untitled%201.png)
+
 
 </aside>
 
