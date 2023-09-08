@@ -16,8 +16,8 @@ RSS: false
 weibo_username: false
 zhihu_username: false
 github_username: kevin0920911
-facebook_username:  Kevin Hsu
-#linkedin_username:  firstname-lastname-idxxxx
+facebook_username:  kevin.hsu.3192
+linkedin_username:  聖凱-徐-59363b277
 
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
@@ -58,7 +58,7 @@ kramdown:
       start_line: 1
 
 # Disqus settings
-disqus_username: hux
+disqus_username: hsu
 
 # Netease settings
 netease_comment: false
@@ -73,8 +73,8 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: "要做一个有 swag 的程序员 <br> React Team @ Meta"
-sidebar-avatar: https://github.com/Huxpro.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "程式不會寫，真的是眉毛不夠濃"
+sidebar-avatar: https://avatars.githubusercontent.com/u/83535048?s=96&v=4 # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
@@ -88,7 +88,4 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-friends:
-  [
-    
-  ]
+friends: flase
