@@ -88,5 +88,4 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-friends: 
-["Nope"]
+friends: flase
